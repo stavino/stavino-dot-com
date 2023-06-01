@@ -1,9 +1,11 @@
+import Resume from "./Resume";
+
 function Homepage(){
 
     return (
         <>
         
-        Homepage
+        <Resume />
         
         </>
     )

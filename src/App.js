@@ -7,10 +7,8 @@ import './App.css';
 
 function App() {
 
-  const storedDarkMode = localStorage.getItem("DARK_MODE")
-  const [darkMode, setDarkMode] = useState(storedDarkMode)
+  const [darkMode, setDarkMode] = useState('')
 
-  useEffect(() => {localStorage.setItem("DARK_MODE", darkMode)}, [darkMode])
   const theme = createTheme({
       palette: {
       mode: darkMode ? "dark" : 'light'

@@ -22,8 +22,8 @@ return (
           sx={{}} 
           size="large" 
           color="inherit"   
-          onClick={() => {props.setDarkMode(!props.darkMode); localStorage.setItem("DARK_MODE", !props.darkMode)}} >
-          {props.theme.palette.mode === 'dark' ? <Brightness7 /> : <Brightness4 />}
+          onClick={() => {props.setDarkMode(!props.darkMode); }} >
+          {props.theme.palette.mode === 'dark' ? <Brightness7 /> : <Brightness4 sx={{color: 'black'}} />}
         </Button>
         <IconButton href='https://github.com/stavino'><GitHubIcon/></IconButton>
         <IconButton href="https://www.linkedin.com/in/stephen-avino-a3b3b8227/"><LinkedInIcon/></IconButton>
