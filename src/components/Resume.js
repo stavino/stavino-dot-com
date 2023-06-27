@@ -1,5 +1,5 @@
 import SA_Resume from '../files/SA_resume.pdf'
-import { Button, colors } from '@mui/material';
+import { Button } from '@mui/material';
 
 function Resume(){
 
